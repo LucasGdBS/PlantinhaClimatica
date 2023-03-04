@@ -1,7 +1,7 @@
 import requests
 import json
 
-url = 'https://weather.contrateumdev.com.br/api/weather/city/?city=Olinda,Pernambuco'
+url = 'https://weather.contrateumdev.com.br/api/weather/city/?city=Recife,Pernambuco'
 
 response = requests.get(url=url)
 
